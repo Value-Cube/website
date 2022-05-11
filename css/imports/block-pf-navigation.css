@@ -26,9 +26,6 @@
   padding-left: 2rem;
   font-size: .833333333rem;
 }
-.block-pf-navigation--nav a {
-  font-weight: bold;
-}
 .block-pf-navigation--nav .nav-item:hover a {
   text-decoration: none;
 }
