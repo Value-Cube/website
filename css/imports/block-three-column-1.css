@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 699px) {
   .block-three-column-1 {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
   }
   .block-three-column-1 .columns {
     display: block;
@@ -40,15 +40,12 @@
   }
 }
 
-/* TODO prüfen, ob es vielleicht besser aussieht */
-@media screen and (min-width: 750px) {
-  .block-three-column-1 .column {
-    /*flex: 0 0 calc(33.33% - 4rem);*/
-  }
-}
-
 @media screen and (min-width: 700px) {
+  .block-three-column-1 {
+    padding-bottom: 6.4rem
+  }
   .block-three-column-1 .column {
     flex: 0 0 calc(33.33% - 4rem);
+    margin-bottom: 0;
   }
 }
