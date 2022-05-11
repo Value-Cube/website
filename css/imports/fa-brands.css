@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Font Awesome Brands';
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("../../fonts/fa-brands-400.woff") format("woff");
+}
+
+.fab {
+  font-family: 'Font Awesome Brands';
+}

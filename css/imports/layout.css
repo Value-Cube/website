@@ -1,0 +1,50 @@
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.headroom {
+  will-change: transform;
+  transition: transform 250ms linear;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: var(--color-white);
+  opacity: 0.97;
+  box-shadow: 0 0 5px var(--color-gray-2);
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
+.headroom + .block-hero-2 .columns {
+  margin-top: 3rem;
+}
+
+.ribbon {
+  z-index: 100;
+  background: none repeat scroll 0% 0% rgb(0, 184, 114);
+  color: var(--color-white) !important;
+  display: block;
+  /*font-family: "PT Root UI";*/
+  font-size: calc(5rem/6);
+  font-weight: 400;
+  padding: 8px 150px;
+  position: fixed;
+  right: 0px;
+  text-decoration: none;
+  top: 0px;
+  -webkit-transform: translate(50%, -50%) rotate(45deg) translateY(84px);
+  -moz-transform: translate(50%, -50%) rotate(45deg) translateY(84px);
+  -ms-transform: translate(50%, -50%) rotate(45deg) translateY(84px);
+  -o-transform: translate(50%, -50%) rotate(45deg) translateY(84px);
+  transform: translate(50%, -50%) rotate(45deg) translateY(84px);
+  white-space: nowrap;
+}
+
+.ribbon:hover {
+  text-decoration: none;
+}

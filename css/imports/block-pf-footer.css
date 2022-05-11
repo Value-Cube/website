@@ -1,0 +1,118 @@
+.block-pf-footer {
+  background: var(--color-primary-1);
+  color: var(--color-white);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-size: calc(5rem/6);
+}
+
+.block-pf-footer__container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  margin: 0 auto;
+  text-align: left;
+  width: 1200px;
+  max-width: 100%;
+}
+
+.block-pf-footer ul {
+  list-style: none;
+}
+
+.block-pf-footer a {
+  color: var(--color-white);
+}
+
+.block-pf-footer__nav__social,
+.block-pf-footer__nav__more {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: stretch;
+}
+
+.block-pf-footer__nav__more ul {
+  font-size: calc(5rem/6);
+  line-height: 1.5;
+}
+
+.block-pf-footer__logo {
+  flex: 1 0 25%;
+  padding-right: 2rem;
+}
+
+.block-pf-footer__nav {
+  flex: 1 0 75%;
+}
+
+.block-pf-footer__nav__social > li,
+.block-pf-footer__nav__more > div {
+  flex: 1 1 50%;
+  padding: 0 1rem;
+}
+
+.block-pf-footer__nav__social {
+  padding-bottom: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.block-pf-footer a, .block-pf-footer a:hover,
+.block-pf-footer a:visited, .block-pf-footer a:visited:hover {
+  color: var(--color-white);
+}
+
+.block-pf-footer i {
+  color: var(--color-white);
+}
+
+.block-pf-footer__nav__more__head {
+  font-weight: bold;
+  padding-bottom: .25rem;
+}
+
+@media screen and (max-width: 699px) {
+  .block-pf-footer__container {
+    display: block;
+  }
+
+  .block-pf-footer__logo {
+    margin-bottom: 1rem;
+  }
+
+  .block-pf-footer__nav__social{
+    display: block;
+    line-height: 200%;
+    padding-bottom: 1rem;
+  }
+
+  .block-pf-footer__nav__more {
+    display: block;
+    line-height: 200%;
+  }
+  .block-pf-footer__nav__more > div {
+    margin-bottom: 1rem;
+  }
+}
+
+.block-pf-footer__logo img {
+  height: 1.5rem;
+}
+
+@media screen and (max-width: 699px) {
+  .block-pf-footer {
+    padding-bottom: 3rem;
+  }
+  .block-pf-footer__nav__social > li,
+  .block-pf-footer__nav__more > div {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .block-pf-footer__logo img {
+    margin-left: calc(-10rem/3);
+    margin-top: -0.15rem;
+  }
+}

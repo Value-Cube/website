@@ -1,0 +1,46 @@
+.markupcontent {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.markupcontent>.container {
+  width: 740px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+.markupcontent h1 {
+  margin: 8rem 0 2rem 0;
+  font-size: 3rem;
+}
+.markupcontent h2 {
+  margin: 3rem 0 1.5rem 0;
+  font-size: 1.5rem;
+}
+.markupcontent h3 {
+  margin: 2rem 0 1rem 0;
+  font-size: 1.05rem;
+}
+.markupcontent h4 {
+  margin-bottom: 0.5rem;
+}
+.markupcontent p {
+  margin: 0 0 1rem 0;
+}
+.markupcontent a {
+  word-wrap:break-word;
+}
+
+.markupcontent ul {
+  margin: 0 0 1rem 0;
+  padding: 0 1rem;
+  color: var(--color-primary-2);
+}
+
+@media screen and (max-width: 699px) {
+  .markupcontent {
+    padding: 2rem 1rem;
+  }
+  .markupcontent h1 {
+    margin-top: 4rem;
+  }
+}

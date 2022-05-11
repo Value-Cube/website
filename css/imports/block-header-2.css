@@ -1,0 +1,42 @@
+.block-header-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.block-header-2--logo img {
+  max-height: 1.5rem;
+  width: 100%;
+  margin-left: -1rem;
+}
+
+.block-header-2--nav {
+  display: flex;
+  align-items: baseline;
+}
+
+.block-header-2 .nav-item {
+  display: inline-block;
+  list-style: none;
+  margin-right: 1rem;
+  font-size: 0.85rem;
+}
+.block-header-2 .nav-item:last-of-type {
+  margin: 0;
+}
+
+.block-header-2--cta {
+  margin-left: 2rem;
+}
+
+.block-header-2--cta:hover, .block-header-2--cta:visited:hover {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 699px) {
+  .block-header-2 {
+    display: none !important;
+  }
+}

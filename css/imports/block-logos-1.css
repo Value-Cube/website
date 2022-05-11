@@ -1,0 +1,32 @@
+.block-logos-1 {
+  padding: 4rem;
+}
+
+.block-logos-1 .columns {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.block-logos-1 .column {
+  width: 100%;
+}
+
+.block-logos-1 img {
+  max-width: calc(10% - 1.5rem);
+  max-height: 1.5rem;
+  vertical-align: middle;
+  margin-right: 1.5rem;
+  filter: grayscale(1);
+  opacity: 0.75;
+}
+
+.block-logos-1 img:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 699px) {
+  .block-logos-1 {
+    display: none;
+  }
+}

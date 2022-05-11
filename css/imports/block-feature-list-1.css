@@ -1,0 +1,106 @@
+.block-feature-list-1 + .block-feature-list-1 {
+  padding-top: 0;
+}
+
+.block-feature-list-1 .columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block-feature-list-1 .column.text {
+  flex: 0 0 100%;
+  margin-right: 0;
+  margin-bottom: 2rem;
+}
+
+.block-feature-list-1 .column.media {
+  flex: 0 0 100%;
+}
+
+.block-feature-list-1 .column.media .columns {
+  align-items: center;
+}
+
+.block-feature-list-1 .column.text h2 {
+  margin: -0.5rem 0 1rem 0;
+}
+
+.block-feature-list-1 .column.text p {
+  font-size: calc(7rem/6);
+}
+
+.block-feature-list-1 .features .column.text {
+  margin: 0 0 calc(1rem/6) 0;
+}
+
+.block-feature-list-1 .features .column.text p {
+  font-size: 1rem;
+  line-height: calc(7/6);
+}
+
+.block-feature-list-1 .features .cta {
+  margin: 1rem 0;
+  display: flex;
+}
+
+.block-feature-list-1 .features .cta .button {
+  border: 2px solid var(--color-primary-1);
+  padding: 0.5rem 1rem;
+  width: 60%;
+  text-align: center;
+  font-size: 1rem;
+  color: var(--color-primary-1);
+}
+
+@media screen and (max-width: 699px) {
+  .block-feature-list-1 .features .column.media {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .block-feature-list-1#resources-links .columns .columns:first-child {
+    margin-bottom: 10px;
+  }
+
+  .block-feature-list-1 .column.text {
+    flex: 0 0 calc(100% / 3 * 2 - 4rem);
+    margin-right: 4rem;
+    margin-bottom: 0;
+  }
+
+  .block-feature-list-1 .column.media {
+    flex: 0 0 calc(100% / 3);
+  }
+
+  .block-feature-list-1 .features .column.text {
+    flex: 0 0 calc(100% - 1rem - 50px);
+    margin: 0 0 0 1rem;
+  }
+
+  .block-feature-list-1 .features .column.text-small {
+    flex: 0 0 120px;
+  }
+
+  .block-feature-list-1 .features .column.media {
+    flex: 0 0 50px;
+    opacity: 0.75;
+  }
+
+  /*
+  .block-feature-list-1 + .block-feature-list-1 + .block-feature-list-1 .features .column.media {
+    flex: 0 0 30px;
+  }
+
+  .block-feature-list-1 + .block-feature-list-1 + .block-feature-list-1 .features .column.text {
+    flex: 0 0 calc(100% - 0.5rem - 30px);
+    margin: 0 0 0 0.5rem;
+  }
+  */
+
+  .block-feature-list-1 .features .column.media img {
+    max-width: 100%;
+    vertical-align: bottom;
+    margin: calc(1rem/6) 0;
+  }
+}

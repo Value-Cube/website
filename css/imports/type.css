@@ -1,0 +1,70 @@
+body {
+  letter-spacing: -0.01rem;
+}
+
+h3, h4, h5, h6, strong, button {
+  letter-spacing: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.1rem;
+  line-height: 1;
+  color: var(--color-primary-1);
+}
+
+h1 span.light,
+h2 span.light {
+  font-weight: 300;
+  letter-spacing: -0.1rem;
+}
+
+h2 {
+  font-size: 1,75rem;
+  font-weight: 700;
+  letter-spacing: -0.05rem;
+  line-height: calc(7/6);
+  color: var(--color-primary-1);
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: calc(4/3);
+  color: var(--color-primary-1);
+}
+
+p {
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--color-primary-2);
+  line-height: calc(4/3);
+}
+
+ul {
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--color-black-3);
+  line-height: calc(4/3);
+}
+
+a, a:visited {
+  color: var(--color-primary-1);
+  text-decoration: none;
+}
+
+a:hover, a:visited:hover {
+  color: var(--color-highlight);
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 700px) {
+  h1 { font-size: calc(10rem/3); }
+  h2 { font-size: calc(7rem/3); }
+}
+
+@media screen and (min-width: 1000px) {
+  h1 { font-size: 4rem; }
+  h2 { font-size: calc(8rem/3); }
+}

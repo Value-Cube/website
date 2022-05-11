@@ -1,0 +1,9 @@
+.block {
+  padding: 2rem 1rem;
+}
+
+@media screen and (min-width: 700px) {
+  .block {
+    padding: 6rem 4rem;
+  }
+}
