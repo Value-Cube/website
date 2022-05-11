@@ -112,7 +112,6 @@
 
 @media screen and (min-width: 700px) {
   .block-pf-footer__logo img {
-    margin-left: calc(-10rem/3);
     margin-top: -0.15rem;
   }
 }
