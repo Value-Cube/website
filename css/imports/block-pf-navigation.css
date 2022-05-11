@@ -11,13 +11,11 @@
 }
 .block-pf-navigation--logo > a {
   display: block;
-  margin-left: calc(-10rem/3);
 }
 .block-pf-navigation--logo img {
   display: block;
   height: 1.5rem;
 }
-
 .block-pf-navigation--nav > ul {
   display: flex;
   justify-content: flex-end;
