@@ -87,10 +87,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 2rem;
   }
   .pf-animation__text2 {
     display: flex;
     flex-direction: column;
+    margin-right: 2rem;
   }
   .pf-animation__text2_pre {
     min-height: 36vh;
