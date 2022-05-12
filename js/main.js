@@ -6,8 +6,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
   // initialise
   headroom.init();
 
-  //AOS.init();
+  AOS.init();
+  // disable scroll animation on smaller devices
+  /*
   AOS.init({
     disable: window.innerWidth < 700
   });
+  */
 }, false);
