@@ -131,3 +131,13 @@
     margin-top: -52.5%;
   }
 }
+
+@media screen and (min-height: 745px) and (max-height: 800px) {
+  .pf-animation .container {
+    max-width: 1015px;
+    width: 100%;
+  }
+  .pf-animation__media img {
+    max-width: 600px;
+  }
+}
