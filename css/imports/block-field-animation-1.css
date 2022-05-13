@@ -127,8 +127,8 @@
   .pf-animation__media img {
     right: 0;
     top: 50%;
-    /*margin-top: -50%;*/
-    margin-top: -52.5%;
+    margin-top: -50%;
+    max-width: 90%;
   }
 }
 
